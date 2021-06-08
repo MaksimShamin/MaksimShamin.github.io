@@ -37,8 +37,6 @@ body {
 	font-family: Montserrat;
 }
 
-
-
 .about {
 	background: radial-gradient(59.12% 260.68% at 66.5% 49.02%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ECECEC;
 }
@@ -111,6 +109,8 @@ body {
 	max-width: 1200px;
 	margin-bottom: 15px;
 }
+
+
 .about__info {
 	flex: 0 1 504px;
 }
@@ -270,7 +270,6 @@ body {
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 133%;
-	max-width: 496px;
 	margin-bottom: 27px;
 }
 .start__list {
@@ -496,12 +495,15 @@ body {
 @media (max-width:767px){
 	.content{
 		justify-content: center;
-		padding: 5px;
+		padding: 10px 5px;
 		/*margin: 15px auto;*/
 		text-align: center;
 	}
-	.about__head {
+	.about__head, .about__main {
 		justify-content: center;
+	}	
+	.text {
+		text-align: justify;
 	}
 }
 
